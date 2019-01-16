@@ -1,0 +1,35 @@
+{
+  "name": "@amindunited/exemplars",
+  "version": "0.0.0",
+  "description": "A Node package for creating projects, files, and folder structures",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amindunited/exemplars.git"
+  },
+  "keywords": [
+    "Exemplars",
+    "Templates",
+    "Scaffolding"
+  ],
+  "author": "amindunited",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/amindunited/exemplars/issues"
+  },
+  "homepage": "https://github.com/amindunited/exemplars#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0",
+    "nyc": "^13.1.0",
+    "sinon": "^7.2.2"
+  },
+  "dependencies": {
+    "@amindunited/utils": "0.0.13",
+    "chalk": "^2.4.2"
+  }
+}
